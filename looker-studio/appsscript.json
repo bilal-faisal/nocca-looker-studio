@@ -1,0 +1,22 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.external_request"
+  ],
+  "dataStudio": {
+    "name": "Wix Sales Connector",
+    "company": "Nocca EHMS",
+    "companyUrl": "https://www.nocca-ehms.com",
+    "logoUrl": "https://www.nocca-ehms.com/favicon.ico",
+    "addonUrl": "https://www.nocca-ehms.com",
+    "supportUrl": "https://www.nocca-ehms.com/contact",
+    "description": "Connects to Wix Sales API to retrieve purchases and revenue data."
+  },
+  "webapp": {
+    "executeAs": "USER_DEPLOYING",
+    "access": "ANYONE_ANONYMOUS"
+  }
+}
